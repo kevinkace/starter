@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --open"
   },
   "keywords": [],
   "author": "",
@@ -13,12 +13,49 @@
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.18",
     "eslint": "^4.18.1",
     "html-webpack-include-assets-plugin": "^1.0.2",
     "html-webpack-plugin": "^2.30.1",
     "minireset.css": "0.0.3",
+    "mithril": "^1.1.6",
     "modular-css-webpack": "^8.1.0",
     "webpack": "^3.11.0",
     "webpack-dev-server": "^2.11.1"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "browser": true,
+      "es6": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    },
+    "rules": {
+      "eol-last": [
+        "error",
+        "always"
+      ],
+      "no-console": 0,
+      "radix": [
+        "warn",
+        "always"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-unused-vars": [
+        "warn",
+        {
+          "vars": "all",
+          "args": "after-used",
+          "ignoreRestSiblings": false
+        }
+      ]
+    }
   }
 }
