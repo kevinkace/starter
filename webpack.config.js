@@ -38,7 +38,7 @@ module.exports = {
         new CSSPlugin({ css : "./index.css" }),
         // Tells webpack to use this plugin to generate the output
         new HtmlWebpackPlugin({
-            title      : "Lyrite",
+            title      : "App Name",
             template   : "./src/index.ejs"
         }),
         new HtmlWebpackIncludeAssetsPlugin({
