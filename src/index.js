@@ -6,5 +6,7 @@ import "minireset.css";
 
 m.mount(document.getElementById("mount"), {
     view : () =>
-        m("div", { class : css.component }, "component")
+        m("div", { class : css.component },
+            m("p", "component")
+        )
 });

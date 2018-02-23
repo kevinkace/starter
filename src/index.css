@@ -1,3 +1,7 @@
 .component {
     background: red;
+
+    p {
+        color: white;
+    }
 }

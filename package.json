@@ -20,6 +20,8 @@
     "minireset.css": "0.0.3",
     "mithril": "^1.1.6",
     "modular-css-webpack": "^8.1.0",
+    "postcss": "^6.0.19",
+    "postcss-nested": "^3.0.0",
     "webpack": "^3.11.0",
     "webpack-dev-server": "^2.11.1"
   },
