@@ -12,7 +12,7 @@
   "dependencies": {
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
-    "@modular-css/webpack": "^16.0.0",
+    "@modular-css/webpack": "^25.1.0",
     "babel-loader": "^8.0.2",
     "babel-preset-env": "^1.6.1",
     "clean-webpack-plugin": "^0.1.18",
