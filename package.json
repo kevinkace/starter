@@ -23,7 +23,7 @@
     "postcss": "^6.0.19",
     "postcss-nested": "^3.0.0",
     "webpack": "^3.11.0",
-    "webpack-dev-server": "^2.11.1"
+    "webpack-dev-server": "^3.1.11"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
