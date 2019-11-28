@@ -1,6 +1,6 @@
 # Starter
 
-App templates:
+## Branches
 
 - master:
     - [Mithril](https://github.com/MithrilJS/mithril.js/)
@@ -15,6 +15,8 @@ App templates:
     - [React](https://github.com/facebook/react)
     - [Webpack](https://github.com/webpack/webpack)
     - [Dev Server](https://github.com/webpack/webpack-dev-server)
+
+## Run
 
 - `npm i`
 - `npm start`
