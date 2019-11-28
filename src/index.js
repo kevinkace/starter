@@ -1,12 +1,12 @@
-import m from "mithril";
+import React from "react";
+import ReactDOM from "react-dom";
 
-import css from "./index.css";
+class Comp extends React.Component {
+    render() {
+        return (
+            <div>Component</div>
+        );
+    }
+}
 
-import "minireset.css";
-
-m.mount(document.getElementById("mount"), {
-    view : () =>
-        m("div", { class : css.component },
-            m("p", "component")
-        )
-});
+ReactDOM.render(<Comp />, mount);

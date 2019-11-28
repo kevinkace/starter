@@ -1,63 +1,36 @@
 {
-  "name": "scroll-slide",
+  "name": "starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open"
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinkace/starter.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.1",
-    "clean-webpack-plugin": "^0.1.18",
-    "eslint": "^4.18.1",
-    "html-webpack-include-assets-plugin": "^1.0.2",
-    "html-webpack-plugin": "^2.30.1",
-    "minireset.css": "0.0.3",
-    "mithril": "^1.1.6",
-    "modular-css-webpack": "^8.1.0",
-    "postcss": "^6.0.19",
-    "postcss-nested": "^3.0.0",
-    "webpack": "^3.11.0",
-    "webpack-dev-server": "^3.1.11"
+  "bugs": {
+    "url": "https://github.com/kevinkace/starter/issues"
   },
-  "eslintConfig": {
-    "extends": "eslint:recommended",
-    "env": {
-      "browser": true,
-      "es6": true,
-      "node": true
-    },
-    "parserOptions": {
-      "ecmaVersion": 6,
-      "sourceType": "module"
-    },
-    "rules": {
-      "eol-last": [
-        "error",
-        "always"
-      ],
-      "no-console": 0,
-      "radix": [
-        "warn",
-        "always"
-      ],
-      "semi": [
-        "error",
-        "always"
-      ],
-      "no-unused-vars": [
-        "warn",
-        {
-          "vars": "all",
-          "args": "after-used",
-          "ignoreRestSiblings": false
-        }
-      ]
-    }
+  "homepage": "https://github.com/kevinkace/starter#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   }
 }
