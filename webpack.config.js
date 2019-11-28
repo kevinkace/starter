@@ -23,11 +23,10 @@ module.exports = {
     },
     plugins : [
         new HtmlWebpackPlugin({
-            template : "./src/index.html",
+            template : "./src/index.ejs",
             filename : "./index.html",
-            options  : {
-                title : "website title"
-            }
+
+            title : "website title"
         })
     ]
 };
